@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+
+}
+
+.add-book {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+
+
+label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+}
+
+table, th, td {
+    align-self: start;
+    justify-self: stretch;
+    border: 1px solid;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
